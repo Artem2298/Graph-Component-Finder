@@ -1,0 +1,36 @@
+Overview
+This program is designed to load a graph from an input file, represent it using an adjacency list, and perform various graph-related operations, such as finding the largest connected component, performing Depth-First Search (DFS) and Breadth-First Search (BFS), and calculating the centrality of graph nodes.
+
+Features
+Load graph data from a text file.
+Represent the graph using an adjacency list.
+Find the largest connected component in the graph.
+Perform DFS and BFS to traverse the graph.
+Calculate node centrality based on the shortest path distance.
+Store graph data in a hash table (used for gateways).
+How it Works
+Graph Representation
+The program uses an adjacency list to represent the graph. Each edge is represented as a connection between two nodes (vertices) in the graph.
+
+Key Classes and Functions
+Edge: Represents an edge in the graph, with methods to get and set the starting (from) and ending (to) nodes.
+Graph: Represents the graph, with the following main functions:
+Graph::FindBigComponent: Finds the largest connected component in the graph.
+Graph::DFS: Performs Depth-First Search (DFS) to traverse the graph.
+Graph::BFS: Performs Breadth-First Search (BFS) and calculates the shortest path from a starting node.
+Graph::Centralita: Calculates the centrality of a node based on its distance to other nodes.
+
+Usage
+Input File
+The program reads data from a file named file.txt, which contains the graph edges. Each line in the file should have two integers separated by a space, representing an edge between two nodes (vertices) in the graph.
+
+Functions Description
+Edge::LoadData: Loads graph edges from the file.txt file into a vector of Edge objects and determines the number of vertices.
+Graph::FindBigComponent: Finds the largest connected component of the graph and stores it in the BigComp vector.
+Graph::DFS: Depth-First Search algorithm that helps in traversing and exploring the graph starting from a given vertex.
+Graph::BFS: Breadth-First Search algorithm that finds the shortest path between a given starting vertex and all other reachable vertices.
+Graph::Centralita: Calculates the centrality metric of a graph node based on the shortest distances to other nodes.
+
+Dependencies
+Standard C++ library (iostream, vector, stack, queue, etc.)
+No external libraries are required.
