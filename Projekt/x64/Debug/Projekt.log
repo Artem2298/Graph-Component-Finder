@@ -1,5 +1,0 @@
-﻿  Graph.cpp
-C:\Users\artku\OneDrive\Рабочий стол\2 СЕМЕСТР\Algoritmy\Projekt\Graph.cpp(142,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-  Projekt.cpp
-  Generating Code...
-  Projekt.vcxproj -> C:\Users\artku\OneDrive\Рабочий стол\2 СЕМЕСТР\Algoritmy\Projekt\x64\Debug\Projekt.exe
